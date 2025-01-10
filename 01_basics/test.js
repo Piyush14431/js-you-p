@@ -11,3 +11,7 @@ catlog.table([empAddress,empCity,empEmial,empID,emppassword,])
 // "use strict" <--   treat all code in NodeJs as newer version
 
 // all Documentation      """"https://tc39.es/ecma262/#sec-structured-data""""
+
+
+console.log(typeof "14431")  // basically "typeof" show DataType, like string, boolion, number, object, null, undefined)
+console.log(typeof (empID)) // ye dusra tarika hai DataType janne ka
