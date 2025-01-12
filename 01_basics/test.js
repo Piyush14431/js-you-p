@@ -15,3 +15,24 @@ catlog.table([empAddress,empCity,empEmial,empID,emppassword,])
 
 console.log(typeof "14431")  // basically "typeof" show DataType, like string, boolion, number, object, null, undefined)
 console.log(typeof (empID)) // ye dusra tarika hai DataType janne ka
+
+
+
+
+//***********************  DATA TYPES ******************************//
+
+/*1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+
+*/
