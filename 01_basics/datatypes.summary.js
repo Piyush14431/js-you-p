@@ -63,3 +63,36 @@ console.log(typeof outsideTemp)
        Arrays  =>  object
        Function  =>  function
        Object  =>  object */
+
+
+//***********************MEMORY****************************//
+
+//Steak && Heap memory
+//stake (premitive),  Heap (non premitive)
+//In Stake (premitive) memory reference is is like not permanent type, change after every variable
+//In Heap(non premitive) memory is like permanaent, if one time enter, then after in multiple chane in variable, referance is same
+
+//stake example
+let myLaptop = "Dell"
+let anotherLaptop = myLaptop
+
+anotherLaptop = 'Lenovo'
+
+console.log(myLaptop) // myLaptop me abhi bhi purani wali value hai,
+console.log(anotherLaptop) //But anotherLaptop me value chane ho gyi hai, basicaly yha original value change nahi hui, copy me change hua
+
+//Note == Heap me ye nahi hota, jo bhi last me value di gyi hai wahi value sare me reflect hone lgega
+let userOne = {
+    email : "piyushyadav14431@gmail.com",
+    age :"30"
+}
+
+let userTwo = userOne
+userTwo.email = "17a144311@gmail.com" //object ke ander is tarah se access karte hai, "user.email"
+
+console.log(userOne.email)
+console.log(userTwo.email) // inke result same hi honge
+//Heap ke andar dono ko same hi response milega, basicaly Heap ke andar referance hi milega
+
+//Basicaly Stake ke andar Copy milega
+//And Heap Ke andar Reference milega, meaning, all change,Update original value ke andar hi karte hai
