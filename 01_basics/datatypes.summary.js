@@ -10,6 +10,11 @@
  x = "Hello"; // x is now a string
   */
  //Symbol datatype is use for Unique ID,name,,,,,,,,example
+    // How to declear SYMBOL in object
+   const mySym = Symbol("key1")
+   const mySymbol = {
+    [mySym]: "key1"
+   }
 
  const ID = Symbol('123')
  const anotherIID = Symbol('123')
@@ -56,7 +61,9 @@ console.log(typeof outsideTemp)
        Boolean  => boolean
        null  => object
        undefined  =>  undefined
-       Symbol  =>  symbol
+       Symbol  =>  symbol    How to declear this SYMBOL in onject
+       
+
        BigInt  =>  bigint
 
 2) Non-primitive Datatypes
