@@ -12,7 +12,7 @@
 //LITERAL
 const ello = {} // this is object
 
-
+//this is not a singleton object
 const Hello = {
     name: 'Piyush',
     "fullName": "Piyush YADAV",
